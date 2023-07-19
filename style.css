@@ -1,4 +1,8 @@
 *{
+    margin:0px;
+    padding:0px;
+}
+*{
     @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400&family=Open+Sans:wght@700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 }
 *{
@@ -8,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -56,6 +61,7 @@
     justify-content: space-between;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 .banner-text{
     background-image: url(./images/Group\ 14.png);
@@ -107,4 +113,48 @@
     background: #4EC5F7;
     border: 0;
     margin-left: 15px;
+}
+.services-container{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    width: 2020px;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.services-text{
+    text-align-last: right;
+    text-align: justify;
+    padding-right: 240px;  
+}
+.services-text,.services-title,.primary-description,.primary-btn{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.services-img{
+    padding-left: 240px;
+}
+.services-title{
+    font-size: 48px;
+    font-weight: 700;
+    color:#8758F1;
+}
+.online-games{
+    text-align: center;
+}
+.online-games-text{
+    padding-top: 200px;
+}
+.title-color{
+    color:#fc0dd4;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 240px;
+}
+.card-items p{
+    padding: 20px;
 }
