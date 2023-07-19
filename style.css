@@ -61,16 +61,15 @@
     justify-content: space-between;
     justify-content: center;
     align-items: center;
-    padding-bottom: 40px;
 }
 .banner-text{
     background-image: url(./images/Group\ 14.png);
     background-repeat: no-repeat;
+    background-position:center;
     width:901px;
     height:700px;
-    margin: 0;
     padding-left: 240px;
-    padding-top: 100px;
+    padding-top: 140px;
 }
 .banner-img img{
     background-color: #FFF;
@@ -157,4 +156,111 @@
 }
 .card-items p{
     padding: 20px;
+}
+.hots-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 240px;
+}
+.hots-text{
+    text-align-last: right;
+    padding-right: 240px;
+    padding-bottom: 280px;
+}
+.hots-title{
+    color:#fc0dd4;
+}
+.fason{
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+}
+.games-information{
+    padding: 150px;
+    background-color: rgb(245, 221, 221);
+}
+.games-5item{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+.games-4item,.h4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:10px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.games-item{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    width: 180px;
+    background-color: #FFF;
+    border-radius: 50px;
+}
+.games-item:hover{
+    border: 2px solid rgb(100, 95, 95);
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
+.games-item3{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    border: 2px solid rgb(100, 95, 95);
+    border-radius: 50px;
+    background: #FFF;
+    background-color: antiquewhite;
+}
+.footer{
+    align-items: center;
+    padding:120px;
+    gap:10px;
+    justify-content: center;
+    background:rgb(100, 95, 95)
+}
+.footer-title{
+    display: flex;
+    color:#FFF;
+    font-size: 45px;
+    font-weight: 700;
+    justify-content: center;
+    gap:15px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    gap:60px;
+    padding: 60px;
+}
+.icone-footer{
+    width: 60px;
+}
+.footer-icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.footer-menu2{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    gap:60px;
+    font-size:16px;
+    font-weight: 500;
+    color:#ddbebe
+}
+.footer-description{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color:hsl(0, 65%, 97%)
 }
